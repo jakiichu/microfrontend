@@ -3,6 +3,7 @@
     "baseUrl": "../..",
     "paths": {
       "layout/*": ["../layout/src/*"],
+      "widgets_2/*": ["../vite-project2/src/*"]
     }
   }
 }

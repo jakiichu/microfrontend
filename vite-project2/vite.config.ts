@@ -11,8 +11,9 @@ export default defineConfig({
       remotes: {
         layout: 'http://localhost:5000/assets/layoutEntry.js',
       },
+      filename: "widgetsEntry.js",
       exposes: {
-        './main': './src/main.tsx'
+        './widgets': './src/widgets'
       },
       shared: ['react','react-dom']
     })

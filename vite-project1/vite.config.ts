@@ -10,6 +10,7 @@ export default defineConfig({
       name: "project1",
       remotes: {
         layout: ' http://localhost:5000/assets/layoutEntry.js',
+        widgets_2: ' http://localhost:5002/assets/widgetsEntry.js',
       },
       exposes: {
         './main': './src/main.tsx'
