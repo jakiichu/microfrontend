@@ -1,0 +1,4 @@
+packages:
+  - "vite-project1"
+  - "vite-project2"
+  - "layout"
